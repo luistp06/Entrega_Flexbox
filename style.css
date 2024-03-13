@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+    --primary-color: rgb(255, 106, 0);;
+    --secondary-color: #181E4B;
+    --tertiary-color: #F1A501;
+    
+} 
+body{
+    margin: 0% 8%;
+    background: url(./assets/decore1.png)no-repeat;
+    background-size: 766.31px 872.58px;
+    background-position: 100%  -149px;
+    background-position: flex;
+    
+}
+header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 40px;
+}
+h1{
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+span{
+    background-image: url(./assets/rectangle.png);
+    background-repeat: no-repeat;
+    background-size:37px;
+    background-position-y: 22px;
+    background-position-x: 5px;
+}
+
+
+header > img {
+    width: 50px;
+    height: 50px;
+}
+
+summary{
+    list-style: none;
+    color: black;
+    font-weight: 600;
+}
+
+header > nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+}
+
+a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+header >nav > ul > button{
+    font-weight: 600;
+    padding: 1px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 7px;
+    border-style: groove;
+}
+
+.menu {
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+        /* HERO */
+#hero{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.texto{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+h3{
+    font-family: volkhov;
+    font-weight: 700;
+    font-size:80px;
+    color: var(--secondary-color);
+    letter-spacing: -5px;
+}
+h2{
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.hero_img{
+    max-height: 820px; 
+}
+h4{
+    color: #5E6282;
+}
+.boton{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.Find{
+    color: white;
+    background-color: var(--tertiary-color);
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2%;
+}
+.play_demo{
+   display: flex;
+   align-items: center;
+}
+.play{
+    background-color: #21283200;
+    border-style: none;
+}
+
+
+            /* DESTINATIONS */
+
+ .top_destinations{
+    padding: 10% 0 2% 0;
+    font-weight: 400;
+    font-size:70px;
+    text-align: center;            
+ }
+#Destinations{
+    display: flex;
+    margin: 10% 0%;
+    gap: 20px;
+    justify-content: center;
+}
+.rome{
+    width: 30%;
+    height: 390px;
+    background: url(./assets/rome.png)no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+.rome > div{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5% 9%;
+}
+.london{
+    width: 30%;
+    height: 390px;
+    background: url(./assets/london.png)no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+.london > div{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5% 9%;
+   
+}
+.full_europe{
+    width: 30%;
+    height: 390px;
+    background: url(./assets/full_europe1.png)no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+.full_europe > div{
+    background-color: white;
+    width: 100%;
+    padding: 5% 9%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#Destinations p{
+    color: #5E6282;
+    font-size: 18px;
+    margin: 0 5%;
+}
+
+
+
+
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0% 0% 0%;
+    padding: 3% 2%;
+    align-items: center;
+}
+h5{
+    font-size: 26px;
+}
+h6{
+    font-size: 20px;
+}
+footer > section > p{
+    color: #5E6282;
+    font-size: 18px;
+}
+footer > section > div > p{
+    color: #5E6282;
+}
+#first{
+    width: 15%;
+}
+.small{
+    color: #5E6282;
+    font-size: 10px;
+}
+#social{
+    border-color: red;
+    justify-content: center;
+    text-align: center;
+    padding: 5% 0%;
+    gap: 10px;
+}
+.boton2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+.facebook{
+    background-color: #181e4b00;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    border-style: none;
+}
+.facebook > img{
+    width: 100%;
+}
+.instagram{
+    background-color: #181e4b00;
+    border-style: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: 0% 10%;
+}
+.instagram > img{
+    width: 100%;
+}
+
+.twitter{
+    background-color: #181e4b00;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border-style: none;
+}
+.twitter > img{
+    width: 100%;
+}
+.boton3{
+    display: flex;
+    padding-top: 10%;
+    
+}
+.google{
+    background-color: #181e4b00;
+    border-radius: 35px;
+    width: 100px;
+    height: 30px;
+    border-style: none;
+}
+.google > img{
+    width: 100%;
+}
+.apple{
+    background-color: #181e4b00;
+    border-radius: 35px;
+    width: 100px;
+    height: 30px;
+    border-style: none;
+}
+.apple > img{
+    width: 100%;
+
+}
+/*MEDIA QUERIES*/
+@media (min-width: 730px) and (max-width:1170px){
+    #hero{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    }
+    .texto{
+        justify-content: center;
+        gap: 20px;
+        margin: 5% 0%;
+    }
+    
+    h3{
+        text-align:center;
+    }
+    h4{
+        text-align: justify;
+    }
+    .boton{
+        margin: 0% 30%;
+    }
+}
+@media (max-width: 730px) {
+    header > nav {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+  body{
+    background-image: none;
+  }
+  #hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin:0%;
+  }
+  .texto{
+    justify-content: center;
+    gap: 15px;
+    margin: 5% 0%;
+  }
+  .hero_img{
+    width: 90%;
+    
+  }
+  h3{
+    text-align:center;
+}
+h4{
+    text-align: justify;
+}
+
+#Destinations{
+    display: flex;
+   gap: 20px;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 100px;
+}
+#Destinations div{
+    min-width: 300px;
+}
+footer{
+    margin-top: 15%;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+footer > section > p{
+    display: none;
+}
+#first{
+    text-align: center;
+    width: 100%;
+}
+#contact{
+    margin: 0 5%;
+}
+#social{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.boton2{
+    justify-content: center;
+}
+.instagram{
+    margin: 0% 5%;
+}
+.boton3{
+    justify-content: center;
+}
+}
+
