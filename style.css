@@ -17,9 +17,7 @@ body{
     margin: 0% 8%;
     background: url(./assets/decore1.png)no-repeat;
     background-size: 766.31px 872.58px;
-    background-position: 100%  -149px;
-    background-position: flex;
-    
+    background-position: 100%  -149px; 
 }
 header {
     display: flex;
@@ -56,7 +54,7 @@ summary{
 header > nav {
     flex-grow: 1;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -72,7 +70,7 @@ a{
     font-weight: 600;
     text-decoration: none;
 }
-header >nav > ul > button{
+header button{
     font-weight: 600;
     padding: 1px;
     color: black;
@@ -344,7 +342,8 @@ footer > section > div > p{
         text-align: justify;
     }
     .boton{
-        margin: 0% 30%;
+        width: 60%;
+        justify-content: space-between;
     }
 }
 @media (max-width: 730px) {
